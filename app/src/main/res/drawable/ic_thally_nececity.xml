@@ -1,0 +1,109 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Obsidian backdrop -->
+    <path android:pathData="M0,0 H108 V108 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF080B12" android:offset="0" />
+                <item android:color="#FF101726" android:offset="0.55" />
+                <item android:color="#FF17223B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Atmospheric Indigo-Cyan glow -->
+    <path android:pathData="M0,0 H108 V108 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="50"
+                android:gradientRadius="70"
+                android:type="radial">
+                <item android:color="#3022D3EE" android:offset="0" />
+                <item android:color="#1A818CF8" android:offset="0.55" />
+                <item android:color="#00080B12" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2x2 Obsidian Organizer Grid (fills 16..92 cleanly) -->
+    <!-- Top-Left Tile: World Clock -->
+    <path
+        android:fillColor="#FF141E33"
+        android:pathData="M21,16 H46 A5,5 0 0,1 51,21 V46 A5,5 0 0,1 46,51 H21 A5,5 0 0,1 16,46 V21 A5,5 0 0,1 21,16 Z"
+        android:strokeColor="#AA22D3EE"
+        android:strokeWidth="1.8" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M33.5,33.5 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"
+        android:strokeColor="#FF22D3EE"
+        android:strokeWidth="2.4" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M33.5,27 V33.5 L38.5,36.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.4" />
+
+    <!-- Top-Right Tile: Calendar -->
+    <path
+        android:fillColor="#FF141E33"
+        android:pathData="M62,16 H87 A5,5 0 0,1 92,21 V46 A5,5 0 0,1 87,51 H62 A5,5 0 0,1 57,46 V21 A5,5 0 0,1 62,16 Z"
+        android:strokeColor="#AAFB7185"
+        android:strokeWidth="1.8" />
+    <path
+        android:fillColor="#FFFB7185"
+        android:pathData="M65,24 H84 A2.5,2.5 0 0,1 86.5,26.5 V30 H62.5 V26.5 A2.5,2.5 0 0,1 65,24 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M62.5,30 V42 A2.5,2.5 0 0,0 65,44.5 H84 A2.5,2.5 0 0,0 86.5,42 V30"
+        android:strokeColor="#FFFDA4AF"
+        android:strokeWidth="2.0" />
+    <path
+        android:fillColor="#FFFBBF24"
+        android:pathData="M74.5,37.5 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0" />
+
+    <!-- Bottom-Left Tile: Calculator -->
+    <path
+        android:fillColor="#FF141E33"
+        android:pathData="M21,57 H46 A5,5 0 0,1 51,62 V87 A5,5 0 0,1 46,92 H21 A5,5 0 0,1 16,87 V62 A5,5 0 0,1 21,57 Z"
+        android:strokeColor="#AA818CF8"
+        android:strokeWidth="1.8" />
+    <!-- + and = / x calculator glyphs -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27,65 V73 M23,69 H31 M37,69 H44"
+        android:strokeColor="#FF818CF8"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.6" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,79 L30,85 M30,79 L24,85 M37,80 H44 M37,84.5 H44"
+        android:strokeColor="#FFC7D2FE"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.5" />
+
+    <!-- Bottom-Right Tile: Notes -->
+    <path
+        android:fillColor="#FF141E33"
+        android:pathData="M62,57 H87 A5,5 0 0,1 92,62 V87 A5,5 0 0,1 87,92 H62 A5,5 0 0,1 57,87 V62 A5,5 0 0,1 62,57 Z"
+        android:strokeColor="#AA34D399"
+        android:strokeWidth="1.8" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M65,67 H84 M65,74.5 H84 M65,82 H77"
+        android:strokeColor="#FF34D399"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.8" />
+</vector>

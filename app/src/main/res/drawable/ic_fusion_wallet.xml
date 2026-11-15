@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Top cyan card -->
+    <path
+        android:fillColor="#FF38BDF8"
+        android:pathData="M31,24 H77 A6,6 0 0,1 83,30 V48 H25 V30 A6,6 0 0,1 31,24 Z" />
+    <!-- Middle emerald card -->
+    <path
+        android:fillColor="#FF34D399"
+        android:pathData="M31,32 H77 A6,6 0 0,1 83,38 V56 H25 V38 A6,6 0 0,1 31,32 Z" />
+    <!-- Amber card -->
+    <path
+        android:fillColor="#FFFBBF24"
+        android:pathData="M31,40 H77 A6,6 0 0,1 83,46 V64 H25 V46 A6,6 0 0,1 31,40 Z" />
+    <!-- Front crisp white wallet sleeve -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,49 H44 C46.5,53.2 50,55.5 54,55.5 C58,55.5 61.5,53.2 64,49 H84 A5,5 0 0,1 89,54 V77 A8,8 0 0,1 81,85 H27 A8,8 0 0,1 19,77 V54 A5,5 0 0,1 24,49 Z" />
+</vector>

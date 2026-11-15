@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Security shield -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,19 L84,31 V53 C84,71 71,84 54,90 C37,84 24,71 24,53 V31 Z" />
+    <!-- Embedded meridian globe inside shield -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,53 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 M38,53 H70 M54,37 C60,44 60,62 54,69 M54,37 C48,44 48,62 54,69"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.2" />
+</vector>

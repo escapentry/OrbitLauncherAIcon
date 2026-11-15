@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Concentric onion rings (right half translucent, left bold) -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M54,23 A31,31 0 1,1 54,85 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,23 A31,31 0 1,0 54,85 Z" />
+    <path
+        android:fillColor="#553B0764"
+        android:pathData="M54,32 A22,22 0 1,0 54,76 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,32 A22,22 0 1,1 54,76 Z" />
+    <path
+        android:fillColor="#773B0764"
+        android:pathData="M54,41 A13,13 0 1,0 54,67 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,41 A13,13 0 1,1 54,67 Z" />
+    <!-- Top crest sprout -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,15 C59,15 62,19 60,24 H48 C46,19 49,15 54,15 Z" />
+</vector>

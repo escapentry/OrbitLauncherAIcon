@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Flowing outer wave -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,20 C73,20 88,34 88,53 C88,63 83,70 74,71 C66,72 62,67 63,60 C64,53 59,46 51,46 C43,46 37,52 37,60 C37,70 46,78 58,78 C64,78 70,76 75,73 C69,82 60,88 49,88 C32,88 20,74 20,56 C20,36 35,20 54,20 Z" />
+    <!-- Inner teal crest accent -->
+    <path
+        android:fillColor="#55FFFFFF"
+        android:pathData="M54,32 C66,32 76,41 76,53 C76,58 72,62 67,62 C66,51 58,42 47,42 C38,42 30,49 28,58 C27,44 39,32 54,32 Z" />
+</vector>

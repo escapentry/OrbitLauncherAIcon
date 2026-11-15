@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rising wing crest -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,62 C24,37 42,21 68,22 C58,28 53,36 53,44 C64,37 77,36 86,41 C72,46 64,53 60,62 C70,60 79,62 84,68 C69,69 58,75 49,86 C35,83 24,74 24,62 Z" />
+    <path
+        android:fillColor="#440F172A"
+        android:pathData="M35,62 C37,51 46,44 58,43 C51,49 48,56 49,64 C43,63 38,63 35,62 Z" />
+</vector>

@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sleek minimalist geometric 'V' compass chevron -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M22,28 C21,24 24,21 28,22 L54,34 L80,22 C84,21 87,24 86,28 L60,83 C58,87 50,87 48,83 Z" />
+    <path
+        android:fillColor="#440F172A"
+        android:pathData="M39,34 L54,66 L69,34 L54,41 Z" />
+</vector>

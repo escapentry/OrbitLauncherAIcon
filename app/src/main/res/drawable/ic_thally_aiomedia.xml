@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Obsidian backdrop -->
+    <path android:pathData="M0,0 H108 V108 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF080B12" android:offset="0" />
+                <item android:color="#FF0F172A" android:offset="0.55" />
+                <item android:color="#FF172033" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Atmospheric cyan-indigo aura -->
+    <path android:pathData="M0,0 H108 V108 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="34"
+                android:centerY="32"
+                android:gradientRadius="72"
+                android:type="radial">
+                <item android:color="#3822D3EE" android:offset="0" />
+                <item android:color="#1A818CF8" android:offset="0.55" />
+                <item android:color="#00080B12" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Obsidian media glass frame (fills icon area generously: 16..92) -->
+    <path
+        android:pathData="M24,18 H84 A8,8 0 0,1 92,26 V82 A8,8 0 0,1 84,90 H24 A8,8 0 0,1 16,82 V26 A8,8 0 0,1 24,18 Z"
+        android:strokeWidth="2.4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="92"
+                android:endY="90"
+                android:startX="16"
+                android:startY="18"
+                android:type="linear">
+                <item android:color="#FF162038" android:offset="0" />
+                <item android:color="#FF0C1220" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="92"
+                android:endY="90"
+                android:startX="16"
+                android:startY="18"
+                android:type="linear">
+                <item android:color="#CC22D3EE" android:offset="0" />
+                <item android:color="#AA818CF8" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle mountain/horizon layer inside frame representing photo & image media -->
+    <path android:pathData="M18,74 L37,54 L51,68 L64,58 L90,78 V82 A6,6 0 0,1 84,88 H24 A6,6 0 0,1 18,82 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="54"
+                android:endY="88"
+                android:startX="54"
+                android:startY="54"
+                android:type="linear">
+                <item android:color="#40818CF8" android:offset="0" />
+                <item android:color="#1A22D3EE" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun / lens orb for image gallery -->
+    <path
+        android:fillColor="#9922D3EE"
+        android:pathData="M31,32 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+
+    <!-- Bold central Play emblem (video playback) -->
+    <path android:pathData="M42,35.5 C42,33.2 44.5,31.8 46.5,33 L68.5,46.2 C70.4,47.4 70.4,50.1 68.5,51.3 L46.5,64.5 C44.5,65.7 42,64.3 42,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="70"
+                android:endY="64"
+                android:startX="42"
+                android:startY="33"
+                android:type="linear">
+                <item android:color="#FF22D3EE" android:offset="0" />
+                <item android:color="#FF38BDF8" android:offset="0.5" />
+                <item android:color="#FF818CF8" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp inner play highlight -->
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M45,38.5 L62,48.7 L45,58.8 Z" />
+
+    <!-- Audio equalizer bars across bottom-right -->
+    <path
+        android:fillColor="#FF34D399"
+        android:pathData="M62,74 A2,2 0 0,1 66,74 V82 A2,2 0 0,1 62,82 Z" />
+    <path
+        android:fillColor="#FF22D3EE"
+        android:pathData="M69,68 A2,2 0 0,1 73,68 V82 A2,2 0 0,1 69,82 Z" />
+    <path
+        android:fillColor="#FF818CF8"
+        android:pathData="M76,71 A2,2 0 0,1 80,71 V82 A2,2 0 0,1 76,82 Z" />
+    <path
+        android:fillColor="#FF34D399"
+        android:pathData="M83,75 A2,2 0 0,1 87,75 V82 A2,2 0 0,1 83,82 Z" />
+</vector>

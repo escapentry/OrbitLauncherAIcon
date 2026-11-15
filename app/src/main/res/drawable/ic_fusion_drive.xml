@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Left emerald facet -->
+    <path
+        android:fillColor="#FF34D399"
+        android:pathData="M43,23 L21,61 L31,79 L54,41 Z" />
+    <!-- Right amber facet -->
+    <path
+        android:fillColor="#FFFBBF24"
+        android:pathData="M65,23 H43 L65,61 H87 Z" />
+    <!-- Bottom azure facet -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M31,79 H77 L87,61 H41 Z" />
+</vector>

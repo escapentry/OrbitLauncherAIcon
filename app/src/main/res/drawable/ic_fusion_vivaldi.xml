@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rounded triangle badge -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,33 C20,25 25,20 34,20 H74 C83,20 88,25 84,33 L62,79 C58,87 50,87 46,79 Z" />
+    <!-- Inner geometric V -->
+    <path
+        android:fillColor="#FFE11D48"
+        android:pathData="M34,35 C33,32 35,29 38,29 C41,29 43,31 44,34 L54,57 L64,34 C65,31 67,29 70,29 C73,29 75,32 74,35 L58,69 C56,73 52,73 50,69 Z" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@drawable/orbit_window_splash</item>
+        <item name="android:windowSplashScreenBackground">@color/orbit_splash_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/img_orbit_splash_badge</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

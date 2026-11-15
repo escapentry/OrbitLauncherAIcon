@@ -1,0 +1,6 @@
+{
+  "name": "Orbit",
+  "description": "Zero-settings, ultra-fast Android launcher with automatic display-aware scaling and circular app icons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
